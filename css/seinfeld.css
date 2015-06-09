@@ -155,6 +155,9 @@ a:focus {
     -o-background-size: cover;
     opacity: 1.0;
     transition: background-image 2s linear;
+    -webkit-transition: background-image 2s linear;
+    -moz-transition: background-image 2s linear;
+    -o-transition: background-image 2s linear;
 }
 
 .intro .intro-body {
