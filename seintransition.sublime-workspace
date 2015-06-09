@@ -1,0 +1,314 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"int",
+				"intro"
+			],
+			[
+				"intro",
+				"intro2"
+			],
+			[
+				"TRANSI",
+				"TRANSITIONS"
+			],
+			[
+				"cu",
+				"curImg"
+			],
+			[
+				"img",
+				"imgDuration〔variable〕"
+			],
+			[
+				"page",
+				"pageLoad"
+			],
+			[
+				"set",
+				"setTimeout〔function〕"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"bac",
+				"background-attachment"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"s",
+				"sein02"
+			],
+			[
+				"pr",
+				"previousAudio"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"is",
+				"is_positive〔argument〕"
+			],
+			[
+				"op",
+				"option2"
+			],
+			[
+				"option",
+				"option_text"
+			],
+			[
+				"ass",
+				"assertEqual〔function〕"
+			],
+			[
+				"as",
+				"assertEqual〔function〕"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"th",
+				"theResults"
+			],
+			[
+				"em",
+				"emailSubject"
+			],
+			[
+				"b",
+				"businessName"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 356.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 286.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ericmoore/Documents/Sites/SeinfeldTransitions/css/seinfeld.css",
+		"/Users/ericmoore/Documents/Sites/SeinfeldTransitions/index.html",
+		"/Users/ericmoore/Documents/Sites/SeinfeldTransitions/.gitignore",
+		"/Users/ericmoore/Documents/Sites/SeinfeldTransitions/js/seinfeld.js",
+		"/Users/ericmoore/Documents/Sites/wouldyourather-server/server/option/migrations/0001_initial.py",
+		"/Users/ericmoore/Documents/Sites/wouldyourather-server/server/db.sqlite3",
+		"/Users/ericmoore/Documents/Sites/wouldyourather-server/server/option/models.py",
+		"/Users/ericmoore/Desktop/Sites/Tutorial/elements/comparison.tpl.html",
+		"/Users/ericmoore/Desktop/Sites/Tutorial/app.js",
+		"/Users/ericmoore/Desktop/Sites/Tutorial/index.html",
+		"/Users/ericmoore/Desktop/heyneighbor.html",
+		"/Users/ericmoore/Documents/Programming/Bootstrap/bootstrap-3.3.2-dist/css/bootstrap.css",
+		"/Users/ericmoore/Documents/Programming/Bootstrap/bootstrap-3.3.2-dist/grid.html",
+		"/Users/ericmoore/Documents/Programming/Bootstrap/bootstrap-3.3.2-dist/index.html",
+		"/Users/ericmoore/Documents/Programming/Bootstrap/bootstrap-3.3.2-dist/js/respond.js",
+		"/Users/ericmoore/Documents/Programming/Bootstrap/bootstrap-3.3.2-dist/css/custom.css",
+		"/Users/ericmoore/Documents/Programming/Bootstrap/bootstrap-3.3.2-dist/css/bootstrap.min.css",
+		"/Users/ericmoore/Documents/Coda/Jelly Town/css/style.css",
+		"/Users/ericmoore/Documents/Coda/Jelly Town/home.html",
+		"/Users/ericmoore/Documents/Coda/Reusable Code/default.html",
+		"/Users/ericmoore/Documents/Coda/Travel Vixen/contactForm.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"intro",
+			"jq",
+			"intro",
+			"alt=\"",
+			"^\\n",
+			"col-",
+			"col"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "seintransition.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 149.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
