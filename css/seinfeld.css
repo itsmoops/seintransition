@@ -10,6 +10,11 @@ body {
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: black;
     background-color: #fff;
+    position: fixec;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 html {
@@ -63,11 +68,16 @@ a:focus {
 }
 
 .navbar-custom {
-    margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #fff;
+    padding: 5px 10px;
+    margin: 0;
+}
+.navbar-brand {
+    height: auto;
+    padding: 20px 10px;
 }
 
 .navbar-custom .navbar-brand {
@@ -124,8 +134,11 @@ a:focus {
 }
 
 @media(min-width:768px) {
+    .navbar-brand {
+        float: none;
+    }
     .navbar-custom {
-        padding: 20px 0;
+        padding: 35px 0;
         border-bottom: 0;
         letter-spacing: 1px;
     }
@@ -135,12 +148,20 @@ a:focus {
         border-bottom: 1px solid rgba(255,255,255,.3);
         background: #000;
     }
+
+    .navbar-header {
+        float: none;
+        text-align: center;
+    }
 }
 
  .intro {
-    display: table;
+    display: block;
+    position: absolute;
     width: 100%;
     height: auto;
+    top: 0px;
+    bottom: 0;
     padding: 100px 0;
     text-align: center;
     color: #fff;
@@ -155,10 +176,13 @@ a:focus {
     -o-background-size: cover;
     opacity: 1.0;
     transition: background-image 2s linear;
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }
 
 .intro .intro-body {
-    display: table-cell;
+    display: block;
     vertical-align: middle;
 }
 
@@ -186,7 +210,7 @@ a:focus {
 }
 
 .btn-circle {
-    width: 400px;
+    max-width: 400px;
     height: 90px;
     margin-top: 15px;
     padding: 7px 16px;
