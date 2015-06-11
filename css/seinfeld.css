@@ -177,7 +177,9 @@ a:focus {
     opacity: 1.0;
     transition: background-image 2s linear;
     display: flex;
+    display: -webkit-flex;
     align-items:center;
+    -webkit-align-items: center;
     justify-content: center;
     -webkit-transition: background-image 2s linear;
     -moz-transition: background-image 2s linear;
