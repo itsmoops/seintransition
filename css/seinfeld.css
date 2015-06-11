@@ -181,6 +181,7 @@ a:focus {
     align-items:center;
     -webkit-align-items: center;
     justify-content: center;
+    -webkit-justify-content: center;
     -webkit-transition: background-image 2s linear;
     -moz-transition: background-image 2s linear;
     -o-transition: background-image 2s linear;
