@@ -1,4 +1,4 @@
-var curImg = 0;
+// Play Audio
 var lastNum;
 
 function playAudio(){
@@ -16,26 +16,17 @@ function playAudio(){
     lastNum = currentNum;
 }
 
+// Preload Images
+$.preloadImages = function() {
+  for (var i = 0; i < arguments.length; i++) {
+    $("<img />").attr("src", arguments[i]);
+  }
+}
 
-//Solution 1
-// function pageLoad() {
-//     //slideShow(curImg, 3000);
-// }
+$.preloadImages("img/sein0.jpg","img/sein1.jpg","img/sein2.jpg","img/sein3.jpg",
+"img/sein4.jpg","img/sein5.jpg","img/sein6.jpg","img/sein7.jpg","img/sein8.jpg","img/sein9.jpg");
 
-// function slideShow(curImg, duration){
-//     var imgArray = ['sein0','sein1','sein2','sein3','sein4','sein5','sein6','sein7','sein8','sein9'];
-//     setTimeout(function(){
-//         $($(".intro")[0]).css("background-image","url(./img/" + imgArray[curImg] + ".jpg)");
-//         // currImg++;
-//         // $($(".intro2")[0]).css("background-image","url(./img/" + imgArray[curImg] + ".jpg)");
-//         slideShow(curImg, duration);
-//     }, duration);
-//     curImg++;
-//     if (curImg == imgArray.length) {
-//         curImg = 0;
-//     }
-// }
-
+// Slideshow
 var i=0;
 var imghead=[
     "url(./img/sein0.jpg)",
