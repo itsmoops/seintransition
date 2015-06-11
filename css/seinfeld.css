@@ -179,6 +179,9 @@ a:focus {
     display: flex;
     align-items:center;
     justify-content: center;
+    -webkit-transition: background-image 2s linear;
+    -moz-transition: background-image 2s linear;
+    -o-transition: background-image 2s linear;
 }
 
 .intro .intro-body {
