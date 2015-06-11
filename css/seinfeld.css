@@ -213,12 +213,12 @@ a:focus {
 }
 
 .btn-circle {
-    max-width: 400px;
-    height: 90px;
+    max-width: 200px;
+    height: 60px;
     margin-top: 15px;
     padding: 7px 16px;
     border: 2px solid #fff;
-    font-size: 55px;
+    font-size: 30px;
     color: #fff;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
@@ -249,6 +249,22 @@ a:focus {
     -moz-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
+}
+
+@media(min-width:768px) {
+    .btn-circle {
+        max-width: 400px;
+        height: 90px;
+        margin-top: 15px;
+        padding: 7px 16px;
+        border: 2px solid #fff;
+        font-size: 55px;
+        color: #fff;
+        background: 0 0;
+        -webkit-transition: background .3s ease-in-out;
+        -moz-transition: background .3s ease-in-out;
+        transition: background .3s ease-in-out;
+    }
 }
 
 @-webkit-keyframes pulse {    
